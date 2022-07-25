@@ -6,3 +6,6 @@ RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-
     poetry config virtualenvs.create false && \
     poetry config experimental.new-installer false && \
     poetry add numpy pandas fastapi uvicorn
+    # && \
+    #chmod a+x ./start.sh
+#ENTRYPOINT [ "./start.sh" ]
